@@ -1,1 +1,37 @@
+# === 🧠 Stored Execution Rules ===
+# - Prevents leaking keys, checkpoints, artifacts
+# - Applies to local, Docker, and GitHub workflows
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & outputs
+logs/
+*.log
+
+# Data
+data/*.parquet
+data/*.zip
+data/*.npy
+
+# Secrets
+.env
+ml/mlruns/
+mlflow.db
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
 
