@@ -32,6 +32,16 @@ mlflow.db
 Thumbs.db
 
 # VSCode / IDE
+
+# Data & cache
+data/*.csv
+data/*.parquet
+data/cache/
+logs/*.csv
+__pycache__/
+
+
+
 .vscode/
 .idea/
 
