@@ -1,8 +1,12 @@
+# === 🧠 Stored Execution Rules ===
+# - All packages must be pip-installable
+# - Compatible with Dockerfile
+# - Used for both local + container installs
+
 pandas
 numpy
 matplotlib
-scikit-learn
 streamlit
-optuna
 mlflow
-backtrader
+optuna
+python-dotenv
