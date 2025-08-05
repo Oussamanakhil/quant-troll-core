@@ -1,1 +1,11 @@
-# data_config.yaml - Placeholder for config
+# === 🧠 Stored Execution Rules ===
+# - Defines data paths for ingestion
+# - Keeps raw vs processed data split
+# - Allows switching from local CSV to API ingestion later
+
+btc:
+  source: "local"
+  raw_path: "data/btc_ohlcv.csv"
+  processed_path: "data/processed.parquet"
+  timeframe: "15min"
+  exchange: "bybit"
